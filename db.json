@@ -1,0 +1,594 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$t/83RvG8MH6fp8xGQzzhX.g6zcU3exVl1ZgsPLxSha5KHsBfchL..",
+      "confirmPassword": "11111111",
+      "user_name": "admin",
+      "address": "ha noi",
+      "dateOfBirthday": "",
+      "role": 0,
+      "cart": [],
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/images%2Fdownload%20(4).jpg?alt=media&token=c1b44dec-b26e-4a93-9c8e-91ed6af570db",
+      "bill": [],
+      "active": false,
+      "dateOfBirth": "2023-09-22",
+      "gender": 0,
+      "id": 21
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$.dIKFcjlnmc1KUj9q164weuZ.2f7ESHmm7TQusr0KVmfDtPMpaey.",
+      "confirmPassword": "11111111",
+      "user_name": "user",
+      "address": "ho chi minh",
+      "dateOfBirthday": "",
+      "role": 1,
+      "cart": [],
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/images%2Fimages.jpg?alt=media&token=d38f6458-45e1-452f-8504-66d1e0222cfc",
+      "bill": [],
+      "active": false,
+      "dateOfBirth": "2023-09-25",
+      "gender": 2,
+      "id": 24
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "$2a$10$/EKjFSium9c3.46AZ70jwutElwQArrUV1EBhX/8n3gQHlNHg4RE0a",
+      "confirmPassword": "11111111",
+      "user_name": "demo",
+      "address": "ha noi",
+      "dateOfBirthday": "",
+      "role": 1,
+      "cart": [],
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/images%2Fdownload%20(3).jpg?alt=media&token=0c36b569-ea34-423e-a6f2-7a7d05e50efe",
+      "bill": [],
+      "active": false,
+      "dateOfBirth": "2023-09-25",
+      "gender": 1,
+      "id": 23
+    },
+    {
+      "email": "hahuulong@gmail.com",
+      "password": "$2a$10$8GuuZ7fdJmoL2aR7MsYt/uE4TZJrWuMdzHT66JVln1ujUYOI9y8f6",
+      "confirmPassword": "11111111",
+      "user_name": "ha huu long",
+      "address": "ha noi",
+      "dateOfBirthday": "",
+      "role": 1,
+      "cart": [],
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/images%2Fdownload%20(1).jpg?alt=media&token=d330dafe-afe9-4771-b54f-775258b266f0",
+      "bill": [],
+      "active": false,
+      "dateOfBirth": "2023-09-26",
+      "gender": 0,
+      "id": 25
+    }
+  ],
+  "carts": [
+    {
+      "userId": 24,
+      "cart": [],
+      "id": 1
+    },
+    {
+      "userId": 21,
+      "cart": [],
+      "id": 2
+    },
+    {
+      "userId": 25,
+      "cart": [],
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "userId": 24,
+      "fullName": "Son Tran",
+      "note": "giao hang nhanh ",
+      "phone": "03124569877",
+      "address": "ha noi",
+      "cart": [
+        {
+          "id": 2,
+          "product_name": "APPLE",
+          "price": 13000,
+          "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+          "from": "VIET NAM",
+          "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10%20-%20Copy.jpg?alt=media&token=3f22a0e3-b1a5-4a9a-a6b4-8cf1e0d595d9",
+          "discount": 0,
+          "quantity": 1,
+          "category_id": 2
+        }
+      ],
+      "all_price": 13000,
+      "status": 1,
+      "products_detail": [
+        {
+          "id": 2,
+          "price": 13000,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 25,
+      "fullName": "ha huu long",
+      "note": "bom hang",
+      "phone": "0311322121",
+      "address": "ha noi",
+      "cart": [
+        {
+          "id": 1,
+          "product_name": "BROCOLLI",
+          "price": 12000,
+          "description": "Brocolli is a vegetable originating from Vietnam. It is dark green in color and shaped somewhat like a mustard plant. Broccoli is a good source of fiber and vitamin C. It is often used in salads, stir-fried noodles or steamed.",
+          "from": "VIET NAM",
+          "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-6.jpg?alt=media&token=9da42eff-9277-4e7c-a663-73f7f6fcc696",
+          "discount": 0,
+          "quantity": 5,
+          "category_id": 2
+        },
+        {
+          "id": 2,
+          "product_name": "APPLE",
+          "price": 13000,
+          "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+          "from": "VIET NAM",
+          "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10%20-%20Copy.jpg?alt=media&token=3f22a0e3-b1a5-4a9a-a6b4-8cf1e0d595d9",
+          "discount": 0,
+          "quantity": 1,
+          "category_id": 2
+        }
+      ],
+      "all_price": 73000,
+      "status": 2,
+      "products_detail": [
+        {
+          "id": 1,
+          "price": 12000,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "price": 13000,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "category_name": "Vietnamese Products"
+    },
+    {
+      "category_name": "China Products",
+      "id": 3
+    },
+    {
+      "category_name": "Japanese Products",
+      "id": 4
+    }
+  ],
+  "slider": [
+    {
+      "img": "https://vn-test-11.slatic.net/p/6fade05b1d2e66fd60692612025f31d2.jpg",
+      "id": 1
+    },
+    {
+      "img": "https://thesungate.com.vn/upload/news/bao-quan-rau-cu.jpg",
+      "id": 2
+    },
+    {
+      "img": "https://watermark.lovepik.com/photo/20211126/large/lovepik-fresh-fruits-and-vegetables-picture_501120716.jpg",
+      "id": 3
+    },
+    {
+      "img": "https://alokiddy.com.vn/Uploads/images/huong/tu-vung-tieng-anh-ve-cac-loai-rau-cu-qua.jpg",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "BROCOLLI",
+      "price": 12000,
+      "description": "Brocolli is a vegetable originating from Vietnam. It is dark green in color and shaped somewhat like a mustard plant. Broccoli is a good source of fiber and vitamin C. It is often used in salads, stir-fried noodles or steamed.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-6.jpg?alt=media&token=9da42eff-9277-4e7c-a663-73f7f6fcc696",
+      "discount": 0,
+      "quantity": 8,
+      "category_id": 2
+    },
+    {
+      "id": 2,
+      "product_name": "APPLE",
+      "price": 13000,
+      "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10%20-%20Copy.jpg?alt=media&token=3f22a0e3-b1a5-4a9a-a6b4-8cf1e0d595d9",
+      "discount": 0,
+      "quantity": 7,
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "product_name": "BELL PEPPER",
+      "price": 12000,
+      "description": "Bell pepper, also known as bell pepper, has a round shape and a variety of colors such as red, yellow, green or orange. It has a sweet and crunchy taste and is a good source of antioxidants and vitamins A, C, E. Bell pepper is often used in salads, grilled, stir-fried or as a filling.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-1%20-%20Copy%20-%20Copy.jpg?alt=media&token=b6adb6ca-437d-44b3-a371-11d18aaa2272",
+      "discount": 0,
+      "quantity": "10",
+      "category_id": 2
+    },
+    {
+      "id": 4,
+      "product_name": "CHILI",
+      "price": 11000,
+      "description": "Chili is a type of chili pepper that is red or green in color. It has a spicy taste and is widely used in many dishes worldwide. Chili contains capsaicin, a substance that has stimulant effects and can boost metabolism. It is often used as a spice or to add flavor to dishes.",
+      "from": "CHINA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-12.jpg?alt=media&token=7da9d45b-b0bd-47a7-9aec-3a3f5bc08156",
+      "discount": 0,
+      "quantity": 52,
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "product_name": "GALIC",
+      "price": 14000,
+      "description": "Garlic is a spice with a strong flavor and characteristic aroma. It is commonly used in many dishes around the world to create its distinctive flavor and aroma. Garlic is also known for its ability to boost the immune system and has anti-bacterial effects.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-11%20-%20Copy.jpg?alt=media&token=4b08d65d-59ce-406e-add5-6c8302c95151",
+      "discount": 0,
+      "quantity": 91,
+      "category_id": 2
+    },
+    {
+      "id": 6,
+      "product_name": "APPLE",
+      "price": 12000,
+      "description": "Apple is a fruit that is round in shape and comes in various colors such as red or green. It has a sweet and crunchy taste and is a good source of fiber and vitamin C. Apples can be eaten fresh, juiced, or used in a variety of desserts and dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10.jpg?alt=media&token=4d857232-bb48-4a8a-a8ea-12e610460e2b",
+      "discount": 0,
+      "quantity": 94,
+      "category_id": 2
+    },
+    {
+      "id": 7,
+      "product_name": "ONION",
+      "price": 12000,
+      "description": "Onion is a vegetable that has a strong flavor and is commonly used in cooking. It has layers of skin and a white or yellowish flesh. Onions can be eaten raw or cooked and are often used as a flavoring ingredient in various dishes such as soups, stews, and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-9.jpg?alt=media&token=f7ea55d8-39f0-4cb6-b44e-4f7219196655",
+      "discount": 0,
+      "quantity": 28,
+      "category_id": 2
+    },
+    {
+      "id": 8,
+      "product_name": "STRAWBERRY",
+      "price": 13000,
+      "description": "Strawberry is a small, sweet fruit that is typically red in color. It has a juicy texture and a slightly tart taste. Strawberries are rich in antioxidants and vitamin C. They are often enjoyed fresh, used in desserts, or added to smoothies and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-2%20-%20Copy.jpg?alt=media&token=d512451d-7889-48a3-bfe5-0999458c72e9",
+      "discount": 0,
+      "quantity": 95,
+      "category_id": 2
+    },
+    {
+      "id": 10,
+      "product_name": "Garlic ",
+      "price": 11000,
+      "description": "Garlic is a spice with a strong flavor and characteristic aroma. It is commonly used in many dishes around the world to create its distinctive flavor and aroma. Garlic is also known for its ability to boost the immune system and has anti-bacterial effects.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-11%20-%20Copy.jpg?alt=media&token=a2816173-8a83-4880-8902-daf51d8ac514",
+      "discount": 0,
+      "quantity": 80,
+      "category_id": 2
+    },
+    {
+      "id": 11,
+      "product_name": "BEAN",
+      "price": 12000,
+      "description": "Bean is a type of legume that comes in various varieties such as black beans, kidney beans, or pinto beans. They are a good source of plant-based protein, fiber, and various vitamins and minerals. Beans can be cooked and used in a wide range of dishes including soups, chili, and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-3%20-%20Copy.jpg?alt=media&token=a052018b-a104-4d1d-ae05-c2ebebd311f2",
+      "discount": 0,
+      "quantity": 77,
+      "category_id": 2
+    },
+    {
+      "id": 12,
+      "product_name": "ONION",
+      "price": 15000,
+      "description": "Onion is a vegetable that has a strong flavor and is commonly used in cooking. It has layers of skin and a white or yellowish flesh. Onions can be eaten raw or cooked and are often used as a flavoring ingredient in various dishes such as soups, stews, and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-9.jpg?alt=media&token=34b06532-62aa-4adf-927d-06227187f47b",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 13,
+      "product_name": "FRUIT JUICE",
+      "price": 12000,
+      "description": "Fruit juice refers to the liquid extracted from fruits. It can be made from a single fruit or a combination of different fruits. Fruit juices are refreshing and packed with vitamins and minerals. They are often consumed as a beverage or used as an ingredient in cocktails and smoothies.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-8.jpg?alt=media&token=f5ade5f3-cbd3-4e7f-afd6-156e345c7804",
+      "discount": 0,
+      "quantity": 55,
+      "category_id": 2
+    },
+    {
+      "id": 15,
+      "product_name": "BELL PEPPER",
+      "price": 12000,
+      "description": " Bell pepper, còn được gọi là ớt chuông, có hình dạng tròn và màu sắc đa dạng như đỏ, vàng, xanh lá cây hoặc cam. Nó có vị ngọt và giòn, là một nguồn cung cấp chất chống oxy hóa và vitamin A, C, E. Bell pepper thường được dùng trong các món salad, nướng, xào hoặc làm nhân.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-1%20-%20Copy%20-%20Copy.jpg?alt=media&token=e6d9117e-d66d-4d76-a8f5-e874e65082a5",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 16,
+      "product_name": "CHILI",
+      "price": 14000,
+      "description": "Chili is a type of chili pepper that is red or green in color. It has a spicy taste and is widely used in many dishes worldwide. Chili contains capsaicin, a substance that has stimulant effects and can boost metabolism. It is often used as a spice or to add flavor to dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-12.jpg?alt=media&token=f42c4168-1193-48bd-8b57-7e7c3c062c03",
+      "discount": 0,
+      "quantity": 65,
+      "category_id": 2
+    },
+    {
+      "id": 17,
+      "product_name": "GALIC",
+      "price": 12000,
+      "description": "Garlic is a spice with a strong flavor and characteristic aroma. It is commonly used in many dishes around the world to create its distinctive flavor and aroma. Garlic is also known for its ability to boost the immune system and has anti-bacterial effects.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-11%20-%20Copy.jpg?alt=media&token=bf144d96-6028-43b4-bbd5-4cd396238b4b",
+      "discount": 2,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 18,
+      "product_name": "APPLE",
+      "price": 12000,
+      "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10.jpg?alt=media&token=6c88bd0c-0cd2-43f8-b835-1a459f371512",
+      "discount": 2,
+      "quantity": 67,
+      "category_id": 2
+    },
+    {
+      "id": 19,
+      "product_name": "ONION",
+      "price": 12000,
+      "description": "Onion is a vegetable that has a strong flavor and is commonly used in cooking. It has layers of skin and a white or yellowish flesh. Onions can be eaten raw or cooked and are often used as a flavoring ingredient in various dishes such as soups, stews, and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-9.jpg?alt=media&token=db8a6fea-82ac-4a95-9eca-9ec8ff36513f",
+      "discount": 2,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 20,
+      "product_name": "STRAWBERRY",
+      "price": 11000,
+      "description": "Strawberry is a small, sweet fruit that is typically red in color. It has a juicy texture and a slightly tart taste. Strawberries are rich in antioxidants and vitamin C. They are often enjoyed fresh, used in desserts, or added to smoothies and salads.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-2%20-%20Copy.jpg?alt=media&token=8e7623af-b239-424a-b93f-3b1dd1149bcc",
+      "discount": 0,
+      "quantity": 55,
+      "category_id": 2
+    },
+    {
+      "id": 21,
+      "product_name": "Onion ",
+      "price": 11000,
+      "description": "Onion is a vegetable that has a strong flavor and is commonly used in cooking. It has layers of skin and a white or yellowish flesh. Onions can be eaten raw or cooked and are often used as a flavoring ingredient in various dishes such as soups, stews, and salads.",
+      "from": "CHINA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-9.jpg?alt=media&token=a7977703-98fb-44b0-9d15-ab70e676135a",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 22,
+      "product_name": "CHILI",
+      "price": 12000,
+      "description": "Chili is a type of chili pepper that is red or green in color. It has a spicy taste and is widely used in many dishes worldwide. Chili contains capsaicin, a substance that has stimulant effects and can boost metabolism. It is often used as a spice or to add flavor to dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-12.jpg?alt=media&token=db4b330f-73d7-4c8d-a196-04a8b2bcf028",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 23,
+      "product_name": "PURPLE CABBAGE",
+      "price": 12000,
+      "description": "Cabbare are juicy and flavorful fruits that are widely used in various cuisines around the world. They come in different shapes, sizes, and colors, including red, yellow, and green. Tomatoes can be enjoyed raw in salads, cooked in sauces, or roasted for a rich and concentrated flavor. These tomatoes are locally sourced and carefully picked to ensure freshness and taste.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-4.jpg?alt=media&token=fdef1ef1-406a-48f3-a6c2-fee66bbb9fa5",
+      "discount": 0,
+      "quantity": 23,
+      "category_id": 2
+    },
+    {
+      "id": 24,
+      "product_name": "TOMATOE",
+      "price": 13000,
+      "description": "Tomatoes are juicy and flavorful fruits that are widely used in various cuisines around the world. They come in different shapes, sizes, and colors, including red, yellow, and green. Tomatoes can be enjoyed raw in salads, cooked in sauces, or roasted for a rich and concentrated flavor. These tomatoes are locally sourced and carefully picked to ensure freshness and taste.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-5.jpg?alt=media&token=819fc85c-888b-42e5-9839-989a3a736086",
+      "discount": 0,
+      "quantity": 99,
+      "category_id": 2
+    },
+    {
+      "id": 25,
+      "product_name": "BROCOLLI",
+      "price": 12000,
+      "description": "Brocolli is a vegetable originating from Vietnam. It is dark green in color and shaped somewhat like a mustard plant. Brocolli is a good source of fiber and vitamin C. It is often used in salads, stir-fried or steamed noodles.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-6.jpg?alt=media&token=ec03c2eb-5ce8-49b3-b19c-64ac27f1921d",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 2
+    },
+    {
+      "id": 26,
+      "product_name": "CARROTS",
+      "price": 11000,
+      "description": "Carrots juice refers to the liquid extracted from fruits. It can be made from a single fruit or a combination of different fruits. Fruit juices are refreshing and packed with vitamins and minerals. They are often consumed as a beverage or used as an ingredient in cocktails and smoothies.",
+      "from": "CHINA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-7%20-%20Copy.jpg?alt=media&token=b17a1ada-85dd-49e4-9303-e0e51aefaeba",
+      "discount": 0,
+      "quantity": 78,
+      "category_id": 2
+    },
+    {
+      "id": 27,
+      "product_name": "Bell pepper",
+      "price": 12000,
+      "description": "Bell pepper, also known as bell pepper, has a round shape and a variety of colors such as red, yellow, green or orange. It has a sweet and crunchy taste and is a good source of antioxidants and vitamins A, C, E. Bell pepper is often used in salads, grilled, stir-fried or as a filling.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-1%20-%20Copy%20-%20Copy.jpg?alt=media&token=242a6230-4652-49a3-a754-1f5aab297588",
+      "discount": 0,
+      "quantity": 100,
+      "category_id": 3
+    },
+    {
+      "id": 28,
+      "product_name": "FRUIT JUICE",
+      "price": 14000,
+      "description": "Fruit juice refers to the liquid extracted from fruits. It can be made from a single fruit or a combination of different fruits. Fruit juices are refreshing and packed with vitamins and minerals. They are often consumed as a beverage or used as an ingredient in cocktails and smoothies.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-8.jpg?alt=media&token=d79672b2-dcf3-4a8b-aa97-29ef399882ef",
+      "discount": 0,
+      "quantity": 46,
+      "category_id": 3
+    },
+    {
+      "id": 29,
+      "product_name": "Apple ",
+      "price": 12000,
+      "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10%20-%20Copy.jpg?alt=media&token=543bc32d-2bd9-4a94-997d-6110bd473f63",
+      "discount": 0,
+      "quantity": 60,
+      "category_id": 3
+    },
+    {
+      "product_name": "TOMATO",
+      "price": 10000,
+      "description": "Tomatoes are versatile and flavorful fruits that are used in various culinary preparations. They are known for their vibrant color and juicy texture. Whether you use them in salads, sandwiches, or cooked dishes, tomatoes add a burst of freshness and tanginess to your meals. These tomatoes are sourced from Vietnam, ensuring quality and taste.",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-5.jpg?alt=media&token=e4aa8457-184e-442e-9a00-5e544b52dd75",
+      "id": 34,
+      "quantity": 100,
+      "category_id": 3
+    },
+    {
+      "product_name": "CABBAGE",
+      "price": 11000,
+      "description": "CABBAGE a type of tomato known for its rich flavor and firm texture. It is commonly used in various culinary dishes, including salads, sauces, and soups. These ca chua111222 are sourced from Ha Noi111111, ensuring freshness and quality. Whether you use them in traditional recipes or experiment with new flavors, ca chua111222 adds a delightful taste to your dishes.",
+      "from": "CHINA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-4%20-%20Copy.jpg?alt=media&token=6895dbb2-ead2-4ca8-aad3-fbf1cc46a5d5",
+      "id": 35,
+      "quantity": 50,
+      "category_id": 3
+    },
+    {
+      "product_name": "ONION",
+      "price": 15000,
+      "description": "Onion small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But",
+      "from": "CHINA",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-9.jpg?alt=media&token=30464648-7d52-4812-95fd-9df4ba31377f",
+      "id": 36,
+      "quantity": 100,
+      "category_id": 3
+    },
+    {
+      "product_name": "STRAWBERRY",
+      "price": 11000,
+      "description": "Strawberry is a small, sweet fruit that is typically red in color. It has a juicy texture and a slightly tart taste. Strawberries are rich in antioxidants and vitamin C. They are often enjoyed fresh, used in desserts, or added to smoothies and salads.\n",
+      "from": "VIET NAM",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-2%20-%20Copy.jpg?alt=media&token=3ccfc70d-487d-4e6c-b9ea-03d61a170089",
+      "id": 37,
+      "quantity": 33,
+      "category_id": 3
+    },
+    {
+      "product_name": "Bell pepper",
+      "price": 13000,
+      "description": "Bell pepper, also known as bell pepper, has a round shape and a variety of colors such as red, yellow, green or orange. It has a sweet and crunchy taste and is a good source of antioxidants and vitamins A, C, E. Bell pepper is often used in salads, grilled, stir-fried or as a filling.",
+      "from": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-1%20-%20Copy%20-%20Copy.jpg?alt=media&token=0792574c-6402-4641-abde-e1b0e6a9de3d",
+      "category_name": "",
+      "quantity": 20,
+      "discount": "",
+      "category_id": 4,
+      "id": 38
+    },
+    {
+      "product_name": "BROCOLLI",
+      "price": 11000,
+      "description": "Brocolli is a vegetable originating from Vietnam. It is dark green in color and shaped somewhat like a mustard plant. Brocolli is a good source of fiber and vitamin C. It is often used in salads, stir-fried or steamed noodles.",
+      "from": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-6.jpg?alt=media&token=5313b704-104f-46bb-a631-b0d298c9ffd1",
+      "category_name": "",
+      "quantity": 20,
+      "discount": "",
+      "category_id": 4,
+      "id": 39
+    },
+    {
+      "product_name": "Apple ",
+      "price": 13000,
+      "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+      "from": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-10.jpg?alt=media&token=729e12c1-54de-4e0c-b8f7-1fc88f0f75ed",
+      "category_name": "",
+      "quantity": 20,
+      "discount": "",
+      "category_id": 4,
+      "id": 40
+    },
+    {
+      "product_name": "Bell pepper",
+      "price": 13000,
+      "description": "Bell pepper, also known as bell pepper, has a round shape and a variety of colors such as red, yellow, green or orange. It has a sweet and crunchy taste and is a good source of antioxidants and vitamins A, C, E. Bell pepper is often used in salads, grilled, stir-fried or as a filling.",
+      "from": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-1%20-%20Copy%20-%20Copy.jpg?alt=media&token=a3a01aa9-e18a-4ebd-8494-92da2329d960",
+      "category_name": "",
+      "quantity": 222,
+      "discount": "",
+      "category_id": 4,
+      "id": 41
+    },
+    {
+      "product_name": "Chili",
+      "price": 12000,
+      "description": "Apple is a spherical, red or green fruit. The apple is sweet and crunchy and is a good source of fiber and vitamin C. It can be eaten fresh, juiced or used in many other desserts and dishes.",
+      "from": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/fir-login-with-firebase-2a40f.appspot.com/o/files%2Fproduct-12.jpg?alt=media&token=cf0e5eba-a73f-437e-8e53-cd6bf1111daf",
+      "category_name": "",
+      "quantity": 212,
+      "discount": "",
+      "category_id": 3,
+      "id": 42
+    }
+  ]
+}
